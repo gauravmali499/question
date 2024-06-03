@@ -1,0 +1,257 @@
+[
+  {
+    "0": {
+      "expected": "Email is invalid",
+      "actual": "\"Something Went Wrong\""
+    },
+    "action": "UserRegistration_EmailInvalid",
+    "message": "The Response body does not contain values: [Email is invalid]"
+  },
+  {
+    "0": {
+      "expected": 201,
+      "actual": 422
+    },
+    "action": "UserRegistration_Success",
+    "message": "Expected HTTP Request Status Code was 201 but received 422 [Validation: Check if the received status code matches the expected one.]"
+  },
+  {
+    "0": {
+      "message": "Expected JSON DataType"
+    },
+    "action": "UserRegistration_EmailAlreadyExists",
+    "message": "Expected JSON DataType"
+  },
+  {
+    "0": {
+      "expected": "Username is required",
+      "actual": "\"Email is required\""
+    },
+    "action": "UserRegistration_UsernameRequired",
+    "message": "The Response body does not contain values: [Username is required]"
+  },
+  {
+    "0": {
+      "expected": "Username must be at lease 3 characters long",
+      "actual": "\"Email is required\""
+    },
+    "action": "UserRegistration_UsernameLength",
+    "message": "The Response body does not contain values: [Username must be at lease 3 characters long]"
+  },
+  {
+    "0": {
+      "message": "Expected JSON DataType"
+    },
+    "action": "UserRegistration_UsernameAlreadyExists",
+    "message": "Expected JSON DataType"
+  },
+  {
+    "0": {
+      "expected": "Password is required",
+      "actual": "\"Email is required\""
+    },
+    "action": "UserRegistration_PasswordRequired",
+    "message": "The Response body does not contain values: [Password is required]"
+  },
+  {
+    "0": {
+      "expected": "Username must be lowercase",
+      "actual": "\"Email is required\""
+    },
+    "action": "UserRegistration_UsernameLowerCase",
+    "message": "The Response body does not contain values: [Username must be lowercase]"
+  },
+  {
+    "0": {
+      "message": "Expected JSON DataType"
+    },
+    "action": "UserLogin_InvalidCredentials",
+    "message": "Expected JSON DataType"
+  },
+  {
+    "0": {
+      "message": "Expected JSON DataType"
+    },
+    "action": "UserLogin_Success",
+    "message": "Expected JSON DataType"
+  },
+  {
+    "0": {
+      "message": "Expected JSON DataType"
+    },
+    "action": "Todos_CreateTodo_TitleRequired",
+    "message": "Expected JSON DataType"
+  },
+  {
+    "0": {
+      "expected": 401,
+      "actual": 404
+    },
+    "action": "Todos_CreateTodo_AuthorizationRequired",
+    "message": "Expected HTTP Request Status Code was 401 but received 404 [Validation: Check if the received status code matches the expected one.]"
+  },
+  {
+    "0": {
+      "message": "Expected JSON DataType"
+    },
+    "action": "Todos_CreateTodo_Success",
+    "message": "Expected JSON DataType"
+  },
+  {
+    "0": {
+      "expected": 200,
+      "actual": 404
+    },
+    "action": "Todos_GetCreatedTodoById",
+    "message": "Expected HTTP Request Status Code was 200 but received 404 [Validation: Check if the received status code matches the expected one.]"
+  },
+  {
+    "0": {
+      "expected": 200,
+      "actual": 404
+    },
+    "action": "Todos_GetAllIncludesCreatedTodo",
+    "message": "Expected HTTP Request Status Code was 200 but received 404 [Validation: Check if the received status code matches the expected one.]"
+  },
+  {
+    "0": {
+      "expected": 200,
+      "actual": 404
+    },
+    "action": "Todos_GetAllTodos",
+    "message": "Expected HTTP Request Status Code was 200 but received 404 [Validation: Check if the received status code matches the expected one.]"
+  },
+  {
+    "0": {
+      "expected": 200,
+      "actual": 404
+    },
+    "action": "Todos_GetTodoById",
+    "message": "Expected HTTP Request Status Code was 200 but received 404 [Validation: Check if the received status code matches the expected one.]"
+  },
+  {
+    "0": {
+      "message": "Expected JSON DataType"
+    },
+    "action": "Todos_DeleteTodoById",
+    "message": "Expected JSON DataType"
+  },
+  {
+    "0": {
+      "message": "Expected JSON DataType"
+    },
+    "action": "Todos_DeleteTodoByDeletedId",
+    "message": "Expected JSON DataType"
+  },
+  {
+    "0": {
+      "expected": 200,
+      "actual": 404
+    },
+    "action": "Todos_TodoNotPresentInAllTodos",
+    "message": "Expected HTTP Request Status Code was 200 but received 404 [Validation: Check if the received status code matches the expected one.]"
+  },
+  {
+    "0": {
+      "expected": 401,
+      "actual": 404
+    },
+    "action": "Todos_DeleteTodoWithoutAuthorization",
+    "message": "Expected HTTP Request Status Code was 401 but received 404 [Validation: Check if the received status code matches the expected one.]"
+  },
+  {
+    "0": {
+      "message": "Expected JSON DataType"
+    },
+    "action": "Todos_UpdateTodo_TitleRequired",
+    "message": "Expected JSON DataType"
+  },
+  {
+    "0": {
+      "message": "Expected JSON DataType"
+    },
+    "action": "Todos_UpdateTodo_TitleRequired",
+    "message": "Expected JSON DataType"
+  },
+  {
+    "0": {
+      "expected": 401,
+      "actual": 404
+    },
+    "action": "Todos_UpdateTodo_AuthorizationRequired",
+    "message": "Expected HTTP Request Status Code was 401 but received 404 [Validation: Check if the received status code matches the expected one.]"
+  },
+  {
+    "0": {
+      "message": "Expected JSON DataType"
+    },
+    "action": "Todos_UpdateTodo_Success",
+    "message": "Expected JSON DataType"
+  },
+  {
+    "0": {
+      "expected": 200,
+      "actual": 404
+    },
+    "action": "Todos_GetUpdatedTodoById",
+    "message": "Expected HTTP Request Status Code was 200 but received 404 [Validation: Check if the received status code matches the expected one.]"
+  },
+  {
+    "0": {
+      "expected": 200,
+      "actual": 404
+    },
+    "action": "Todos_GetAllIncludesUpdatedTodo",
+    "message": "Expected HTTP Request Status Code was 200 but received 404 [Validation: Check if the received status code matches the expected one.]"
+  },
+  {
+    "0": {
+      "expected": 401,
+      "actual": 404
+    },
+    "action": "Todos_UnauthorizedUpdateStatusWithoutHeader",
+    "message": "Expected HTTP Request Status Code was 401 but received 404 [Validation: Check if the received status code matches the expected one.]"
+  },
+  {
+    "0": {
+      "message": "Expected JSON DataType"
+    },
+    "action": "Todos_SuccessfullyToggleTodoStatusToTrue",
+    "message": "Expected JSON DataType"
+  },
+  {
+    "0": {
+      "message": "Expected JSON DataType"
+    },
+    "action": "Todos_VerifyToggledStatusTrueById",
+    "message": "Expected JSON DataType"
+  },
+  {
+    "0": {
+      "message": "Expected JSON DataType"
+    },
+    "action": "Todos_SuccessfullyToggleTodoStatusToFalse",
+    "message": "Expected JSON DataType"
+  },
+  {
+    "0": {
+      "message": "Expected JSON DataType"
+    },
+    "action": "Todos_VerifyToggledStatusFalseById",
+    "message": "Expected JSON DataType"
+  },
+  {
+    "0": {
+      "message": "Expected JSON DataType"
+    },
+    "action": "Todos_UpdateStatusTodoItemNotExists",
+    "message": "Expected JSON DataType"
+  },
+  {
+    "0": {
+      "message": "Expected JSON DataType"
+    },
+    "action": "Todos_UpdateStatusTodoItemNotExists",
+    "message": "Expected JSON DataType"
+  }
+]
